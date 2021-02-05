@@ -7,4 +7,12 @@ public class MessageGenerator {
 		else
 			return "GitHub";
 	}
+	
+	public void foo() {
+		System.out.println("Foo");
+	}
+	
+	public void bar() {
+		System.out.println("Bar");
+	}
 }
