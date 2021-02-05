@@ -14,7 +14,9 @@ public class MessageGenerator {
 	}
 	
 	public void bar() {
-		String s = "Hello from bar";
-		System.out.println(s);
+		int x = 5;
+		int y = 7;
+		int sum = x + y;
+		System.out.println(sum);
 	}
 }
