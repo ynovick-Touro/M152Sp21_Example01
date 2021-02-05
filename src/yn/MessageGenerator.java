@@ -9,7 +9,8 @@ public class MessageGenerator {
 	}
 	
 	public void foo() {
-		System.out.println("Foo");
+		String s = "Hi from foo";
+		System.out.println(s);
 	}
 	
 	public void bar() {
