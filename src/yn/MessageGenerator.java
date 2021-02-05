@@ -14,10 +14,10 @@ public class MessageGenerator {
 	}
 	
 	public void bar() {
-		String s1 = "hello";
-		String s2 = "World";
-		
-		String s3 = s1 + " " + s2;
-		System.out.println(s3);
+		int z = 12;
+		int x = 5;
+		int y = 7;
+		int sum = x + y;
+		System.out.println(sum);
 	}
 }
