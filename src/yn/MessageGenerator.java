@@ -14,7 +14,10 @@ public class MessageGenerator {
 	}
 	
 	public void bar() {
-		String s = "Hello from bar";
-		System.out.println(s);
+		String s1 = "hello";
+		String s2 = "World";
+		
+		String s3 = s1 + " " + s2;
+		System.out.println(s3);
 	}
 }
