@@ -13,6 +13,7 @@ public class MessageGenerator {
 	}
 	
 	public void bar() {
-		System.out.println("Bar");
+		String s = "Hello from bar";
+		System.out.println(s);
 	}
 }
